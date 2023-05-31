@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+
+}
+
+.card {
+    width: 18rem;
+    text-align: center;
+}
+
+.view-Container {
+    background: url('https://www.tripsavvy.com/thmb/qQ59TqUkLOoVREXGaoWNU3zRwRg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1047502134-ebf7496b41e047759046e17b91f57679.jpg') no-repeat center/cover;
+    color: white;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.table {
+    color: white;
+}
+
+.insert {
+    background: url('https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2021/11/USE_Elevated-view-over-London-City-skyline_Credit_GettyImages-597210573.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+.Edit-Container {
+    background: url('https://www.state.gov/wp-content/uploads/2019/06/shutterstock_551334580.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+.card-img-top {
+    animation: spin 9s ease-in infinite;
+}
+
+.single {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+@keyframes spin {
+    100% {
+        rotate: 360deg
+    }
+}
